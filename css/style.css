@@ -1,0 +1,50 @@
+body{
+    background-color: #ebeff2;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.nav-bg{
+    background-color: #36404a;
+    color: #62acff;
+}
+.menu-bg{
+    background-color: rgb(21 101 192);
+}
+.nav-text li a{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+.nav-text>li:hover{
+    background-color: aquamarine;
+}
+.fw{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    color: #62acff;
+}
+#log-in ul li a{
+    text-decoration: none;
+}
+.title-row{
+    padding: 0px 5px;
+}
+.bg{
+    background-color: rgb(220 227 232);
+}
+.img-fs img{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid rgb(163, 156, 156);
+    padding: 10px;
+    border-radius: 10px;
+    transition: transform 1s ease-in-out;
+}
+.img-fs img:hover{
+    cursor: pointer;
+    box-shadow: 1px 2px 4px 2px grey;
+    transform: scale(1.02);
+}
